@@ -5,7 +5,7 @@ import axios from 'axios'
 //se define la base de la direccion del servidor
 //en este caso se va a poner un request GET que se obtiene 
 // con un express http://localhost:3001/api/notes 
-const baseURL='http://localhost:3001/api/notes'
+const baseURL='https://agenda-express-fbmf.onrender.com/api/notes'
 
 //se va a definir el request get mediante axios
 const getAll=()=>{
